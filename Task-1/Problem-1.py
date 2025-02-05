@@ -8,5 +8,5 @@ for num in numbers:
         break  
     total += num  
 
-print(total) 
+print(f"Sum: {total}") 
 
