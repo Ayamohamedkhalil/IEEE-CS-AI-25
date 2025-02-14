@@ -8,7 +8,7 @@ with open(file_path, "r", encoding="utf-8") as file:
     text = file.read().lower()  
 
 
-words = re.findall(r"\b\w+'\w+|\w+\b", text)  # Handles contractions like "I'm"
+words = re.findall(r"\b\w+'\w+|\w+\b", text)  
 
 
 word_counts = Counter(words)
